@@ -1,0 +1,24 @@
+.gradient-text {
+  background-image: linear-gradient(
+    to right,
+    #786cfe,
+    #b721ff,
+    #fc00ff,
+    #b721ff,
+    #786cfe
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+  background-size: 300%;
+  background-position: -100%;
+
+  animation: animatedText 9s infinite alternate-reverse;
+}
+
+@keyframes animatedText {
+  to {
+    background-position: 100%;
+  }
+}

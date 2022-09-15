@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/home/Home";
+import Contact from "./pages/Contact";
+import Opportunities from "./pages/opportunities/Opportunities";
+import Team from "./pages/Team/Team";
+import Footer from "./components/Footer";
+import NavbarIcons from "./components/NavbarIcons";
+import { Helmet } from "react-helmet";
+import Resources from "./pages/Resources";
+import AlumniList from "./pages/AlumniList";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Helmet bodyAttributes={{ class: "bg-body text-text font-poppins" }}>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+        ></link>
+      </Helmet>
+      <NavbarIcons />
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/contact" element={<Contact />}></Route>
+        <Route path="/opportunities" element={<Opportunities />}></Route>
+        <Route path="/resources" element={<Resources />}></Route>
+        <Route path="/alumnilist" element={<AlumniList />}></Route>
+        <Route path="/team" element={<Team />}></Route>
+        <Route path="*" element={<Home />}></Route>
+      </Routes>
+      <Footer />
+    </Router>
   );
 }
 
