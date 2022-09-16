@@ -22,6 +22,7 @@ const executives = [
     facebook: "https://www.facebook.com/sandyywu/",
     email: "sandywu2002@gmail.com",
     image: Sandy,
+    calendly: "https://calendly.com/sandyywu/15min",
   },
   {
     name: "Zohaib Adnan",
@@ -30,6 +31,7 @@ const executives = [
     facebook: "https://www.facebook.com/zohaib.adnan.14",
     email: "zohaib.adnan145@gmail.com",
     image: Zohaib,
+    calendly: "https://calendly.com/zohaib_adnan/30min",
   },
   {
     name: "Salina Guo",
@@ -38,6 +40,7 @@ const executives = [
     linkedin: "https://www.linkedin.com/in/salina-guo-28409a1b1/",
     email: "sguo272@uwo.ca",
     image: Salina,
+    calendly: "https://calendly.com/salina-guo/salina-guo-w5-coffee-chats",
   },
   {
     name: "Stephan Balakumaran",
@@ -47,6 +50,7 @@ const executives = [
       "https://www.facebook.com/people/Stephan-Balakumaran/100010665544958?_rdr",
     email: "sbalaku7@uwo.ca",
     image: Stephan,
+    calendly: "https://calendly.com/sbalaku7/coffee-chats-stephan-balakumaran",
   },
   {
     name: "Leanne Kwong",
@@ -55,6 +59,7 @@ const executives = [
     facebook: "https://www.facebook.com/profile.php?id:100072431774219",
     email: "lkwong5@uwo.ca",
     image: Leanne,
+    calendly: "https://calendly.com/leannekwong/w5-community",
   },
   {
     name: "Sunny Su",
@@ -63,6 +68,7 @@ const executives = [
     facebook: "https://www.facebook.com/sunsun.su.969",
     email: "ssu63@uwo.ca",
     image: Sunny,
+    calendly: "https://calendly.com/sunny-su/w5community",
   },
   {
     name: "Mohammed Karimjee",
@@ -71,6 +77,7 @@ const executives = [
     facebook: "https://www.facebook.com/mohammed.karimjee.10",
     email: "Mkarimje@uwo.ca",
     image: Mohammed,
+    calendly: "https://calendly.com/mkarimje/30min",
   },
   {
     name: "Nathan Yee",
@@ -79,6 +86,7 @@ const executives = [
     facebook: "https://www.facebook.com/nate.yee.1",
     email: "nyee7@uwo.ca",
     image: Nathan,
+    calendly: "https://calendly.com/nyee7",
   },
   {
     name: "Yusuf Nissar",
@@ -87,6 +95,7 @@ const executives = [
     facebook: "https://www.facebook.com/yusuf.nissar.96/",
     email: "yusufnissar8@gmail.com",
     image: Yusuf,
+    calendly: "https://calendly.com/yusufnissar/coffee-chats",
   },
   {
     name: "Orianna Lui",
@@ -95,6 +104,7 @@ const executives = [
     facebook: "https://www.facebook.com/oriannaqlui",
     email: "olui4@uwo.ca",
     image: Orianna,
+    calendly: "https://calendly.com/oriannalui/coffee-chat",
   },
   {
     name: "Kelly Le",
@@ -111,6 +121,7 @@ const executives = [
     facebook: "https://www.facebook.com/messages/t/3995716953861476",
     email: "gzhou53@uwo.ca",
     image: Grace,
+    calendly: "https://calendly.com/zhougrace2003/w5",
   },
   {
     name: "Lena Qiu",
@@ -119,6 +130,7 @@ const executives = [
     facebook: "https://www.facebook.com/lena.qiutang",
     email: "ltang247@uwo.ca",
     image: Lena,
+    calendly: "https://calendly.com/lena-q-tang/coffee-chats",
   },
 ];
 

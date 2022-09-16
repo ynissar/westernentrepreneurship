@@ -46,7 +46,12 @@ function Intro() {
             necessary to develop as entrepreneurs and people.
           </p>
           <button className="mt-16 md:mt-8 lg:mt-20 mb-10 xl:mb-6 justify-center font-semibold bg-gradient-to-r from-indigo-500 via-purple-500 to-theme py-4 text-white px-10 rounded-full hover:opacity-80 duration-100">
-            Purchase your membership here
+            <a
+              href="https://www.eventbrite.ca/e/w5-membership-tickets-421331542987"
+              target="_blank"
+            >
+              Purchase your membership here
+            </a>
           </button>
         </div>
         <img

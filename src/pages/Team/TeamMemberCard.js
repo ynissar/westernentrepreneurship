@@ -4,14 +4,22 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-function TeamMemberCard({ name, position, linkedin, email, facebook, image }) {
+function TeamMemberCard({
+  name,
+  position,
+  linkedin,
+  email,
+  facebook,
+  image,
+  calendly,
+}) {
   return (
     <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
       <div className="flex flex-col">
         {/* Avatar */}
-        <a href="#" className="mx-auto">
+        <a href={calendly} target="_blank" className="mx-auto">
           <img
-            className="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+            className="rounded-2xl drop-shadow-md hover:drop-shadow-xl hover:opacity-90 transition-all duration-200"
             src={image}
           />
         </a>

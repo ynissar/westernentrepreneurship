@@ -26,8 +26,15 @@ function Team() {
               {/* Team Members */}
               <div class="flex flex-wrap">
                 {executives.map((executive) => {
-                  const { position, email, linkedin, facebook, name, image } =
-                    executive;
+                  const {
+                    position,
+                    email,
+                    linkedin,
+                    facebook,
+                    name,
+                    image,
+                    calendly,
+                  } = executive;
                   return (
                     <TeamMemberCard
                       position={position}
@@ -36,6 +43,7 @@ function Team() {
                       facebook={facebook}
                       name={name}
                       image={image}
+                      calendly={calendly}
                     ></TeamMemberCard>
                   );
                 })}
