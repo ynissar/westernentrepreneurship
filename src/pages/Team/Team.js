@@ -10,7 +10,7 @@ function Team() {
     <div>
       <Subheader
         title="Team"
-        subtitle="Meet our Executive team for 2022/2023!"
+        subtitle="Press our pictures to Coffee chat us!"
       ></Subheader>
 
       {/* Page Container */}

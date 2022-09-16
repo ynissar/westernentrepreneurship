@@ -9,7 +9,7 @@ function Events() {
     <div>
       <Subheader
         title="Opportunities"
-        subtitle="Press our pictures to coffee chat us!"
+        subtitle="How to get involved"
       ></Subheader>
       <div className="flex flex-col items-center mb-24">
         <div class="grid gap-8 grid-cols-1 grid-rows-2 mt-12 w-9/12 md:grid-cols-2">
