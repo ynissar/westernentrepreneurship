@@ -30,7 +30,7 @@ function Events() {
 
 function OpportunityCard({ title, description, image }) {
   return (
-    <div class="w-full relative bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+    <div class="w-full relative bg-white rounded-lg border border-gray-200 shadow-md">
       {/* <Link to={"/opportunities/" + title.split(" ").join("")}> */}
       <img class="rounded-t-lg " src={image} alt="" />
       {/* </Link> */}
@@ -47,13 +47,11 @@ function OpportunityCard({ title, description, image }) {
       </div> */}
       <div className="px-6 pb-4 pt-6">
         {/* <Link to={"/opportunities/" + title.split(" ").join("")}> */}
-        <h5 class=" text-2xl mb-2 font-bold tracking-tight text-theme dark:text-white">
+        <h5 class=" text-2xl mb-2 font-bold tracking-tight text-theme">
           {title}
         </h5>
         {/* </Link> */}
-        <p class="font-normal text-gray-700 dark:text-gray-400">
-          {description}
-        </p>
+        <p class="font-normal text-gray-700">{description}</p>
       </div>
     </div>
   );
