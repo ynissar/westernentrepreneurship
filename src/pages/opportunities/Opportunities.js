@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 import Subheader from "../../components/Subheader";
 import eventData from "./opportunitiesData";
@@ -31,9 +31,9 @@ function Events() {
 function OpportunityCard({ title, description, image }) {
   return (
     <div class="w-full relative bg-white rounded-lg border border-gray-200 shadow-md">
-      {/* <Link to={"/opportunities/" + title.split(" ").join("")}> */}
-      <img class="rounded-t-lg " src={image} alt="" />
-      {/* </Link> */}
+      <Link to={"/opportunities/" + title.split(" ").join("")}>
+        <img class="rounded-t-lg " src={image} alt="" />
+      </Link>
       {/* <div class="absolute top-4 right-2">
         <span class="inline-block bg-secondary rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
           #photography
@@ -46,13 +46,14 @@ function OpportunityCard({ title, description, image }) {
         </span>
       </div> */}
       <div className="px-6 pb-4 pt-6">
-        {/* <Link to={"/opportunities/" + title.split(" ").join("")}> */}
-        <h5 class=" text-2xl mb-2 font-bold tracking-tight text-theme">
-          {title}
-        </h5>
-        {/* </Link> */}
+        <Link to={"/opportunities/" + title.split(" ").join("")}>
+          <h5 class=" text-2xl mb-2 font-bold tracking-tight text-theme">
+            {title}
+          </h5>
+        </Link>
         <p class="font-normal text-gray-700">{description}</p>
       </div>
+      <Outlet />
     </div>
   );
 }

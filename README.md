@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# w5entrepreneurs.ca
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Source code for w5entrepreneurs.ca!
 
-## Available Scripts
+- JS/HTML/CSS website built with custom react components for dynamic portions
+- Built with non-technical development in mind (see documentation) to update `opportunities` and `team`.
+- If you need help, please reach out to someone with technical experience on the W5 team
 
-In the project directory, you can run:
+## Deployed! 🚀
 
-### `npm start`
+Check out the deployed website here: [https://w5entrepreneurs.ca/](https://w5entrepreneurs.ca/).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Non-technical documentation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+> This section offers information on how to update different sections of
+> the website that require maintenance. This is aimed at people who are
+> not familiar with web development. Keep this README open in a separate
+> tab for a more smooth process.
 
-### `npm test`
+### Opportunities
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. From the project page, navigate to src -> pages -> opportunities
+2. Enter the file opportunitiesData.js
+3. Press the pencil icon to edit the file
+4. Add events by following the JSON pattern (format in which previous events are written). Ensure that the event description is ~290 characters and title is fewer than 40 characters. Ignore the image property. Commit your changes at the bottom of the page.
+5. In order to add an event photo, navigate to src -> images -> events. Press the add file button. The size of the event photo has to be 750x500. Commit your changes at the bottom of the page.
+6. Go to the index.js file in src -> image -> events. Add an import statement in the same format as the previous statements (Note: you need to reference the file name of the event photo you uploaded). The name of the image you imported should then be added to the list of names of files exported. Commit your changes at the bottom of the page.
+7. Navigate back to src -> pages -> opportunities and enter the opportunitiesData.js file again. Import the file we exported in the last step by adding the file name to the existing import statement at the top of the file. Now, add the image property and reference the image in our newly added event. At the top. Commit your changes at the bottom of the page.
 
-### `npm run build`
+### Team
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. From the project page, navigate to src -> pages -> team
+2. Enter the file teamData.js
+3. Press the pencil icon to edit the file
+4. Add team members by following the JSON pattern (format in which previous team members are written). Ignore the image property. Commit your changes at the bottom of the page.
+5. In order to add a headshot, navigate to src -> images -> team. Press the add file button. The size of the headshot has to be 400x400. Commit your changes at the bottom of the page.
+6. Go to the index.js file in src -> image -> team. Press the pencil icon to edit. Add an import statement in the same format as the previous statements (Note: you need to reference the file name of the headshot photo you uploaded). The name of the image you imported should then be added to the list of names of files exported. Commit your changes at the bottom of the page.
+7. Navigate back to src -> pages -> team and enter the teamData.js file again. Import the file we exported in the last step by adding the file name to the existing import statement at the top of the file. Now, add the image property and reference the image in our newly added event. At the top. Commit your changes at the bottom of the page.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started (Technical)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> This section contains information on how to run the site on your
+> local machine. You should be familiar with HTML, CSS, JavaScript,
+> NPM, React, and Git.
 
-### `npm run eject`
+### General Info
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This site utilizes a mix between React, TailwindCSS and vanilla HTML/CSS/JS. For pages featuring repetitive components, we use React to dynamically render HTML from JSON. This was done to make updating pages a simple and straightforward process.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone the repo to your local machine
+2. After running npm install, run the server with npm run start.
+3. Using prettier or another code formatter is highly recommended in order to maintain format consistency.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Roadmap
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Refactor to use styled-components
