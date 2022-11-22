@@ -34,8 +34,8 @@ function BenefitSection() {
         ref={ref}
         className="bg-[#E5E4E2] flex flex-col items-center px-5 pb-24"
       >
-        <p className="text-5xl mt-24 mb-6 text-center text-theme font-bold">
-          What we provide
+        <p className="text-5xl mt-24 text-center text-theme font-bold font-montserrat">
+          What We Provide...
         </p>
         <div className="grid gap-10 grid-cols-1 grid-rows-2 xl:grid-rows-1 mt-12 w-4/5 md:grid-cols-1 xl:grid-cols-3 justify-center ">
           <IconCard
@@ -65,10 +65,12 @@ function IconCard({ icon, title, description }) {
       <div className="px-4 shadow-lg py-5 sm:px-6 bg-gradient-to-r from-[#F9F4F9] to-[#F1F9FA] rounded-lg flex-grow">
         <FontAwesomeIcon
           icon={icon}
-          className="text-3xl mt-12 text-secondary"
+          className="text-6xl mt-8 text-secondary"
         ></FontAwesomeIcon>
-        <h3 className="mt-14 text-2xl text-secondary font-semibold">{title}</h3>
-        <p className="mt-3 max-w-2xl">{description}</p>
+        <h3 className="mt-8 text-2xl text-secondary font-semibold font-montserrat">
+          {title}
+        </h3>
+        <p className="mt-3 mb-4 max-w-2xl font-inter">{description}</p>
       </div>
     </div>
   );

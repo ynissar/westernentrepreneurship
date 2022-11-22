@@ -26,7 +26,7 @@ export const ContactUs = () => {
   };
 
   return (
-    <form class="w-full max-w-lg">
+    <form class="w-full max-w-lg" ref={form} onSubmit={sendEmail}>
       <div class="flex flex-wrap -mx-3 mb-6">
         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
           <label
@@ -37,7 +37,8 @@ export const ContactUs = () => {
           </label>
           <input
             class="appearance-none block w-full bg-gray-200 text-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
-            id="grid-first-name"
+            id="first_name"
+            name="first_name"
             type="text"
           />
         </div>
@@ -50,7 +51,8 @@ export const ContactUs = () => {
           </label>
           <input
             class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-            id="grid-last-name"
+            id="last_name"
+            name="last_name"
             type="text"
           />
         </div>
@@ -65,7 +67,7 @@ export const ContactUs = () => {
           </label>
           <input
             class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-            id="email"
+            name="user_email"
             type="email"
           />
         </div>
@@ -81,6 +83,7 @@ export const ContactUs = () => {
           <textarea
             class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
             id="message"
+            name="message"
           ></textarea>
           <p class="text-gray-600 text-xs italic">Email us about anything!</p>
         </div>
@@ -88,7 +91,7 @@ export const ContactUs = () => {
       <div class="flex justify-center">
         <button
           class="shadow bg-secondary hover:opacity-80 duration-100 focus:shadow-outline focus:outline-none text-white font-semibold py-2 px-16 rounded-full "
-          type="button"
+          type="submit"
         >
           Send
         </button>

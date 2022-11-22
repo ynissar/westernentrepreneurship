@@ -28,8 +28,8 @@ function EventSection() {
   return (
     <section>
       <motion.div animate={animation} initial={{ opacity: 0 }} ref={ref}>
-        <p className="text-5xl mt-24 mb-6 text-theme font-bold text-center py-12 px-16 md:px-28 lg:px-52 ">
-          Flagship events
+        <p className="text-5xl mt-24 text-theme font-bold text-center py-6 px-16 md:px-28 lg:px-52 font-montserrat">
+          Flagship Events
         </p>
         <motion.div
           animate={animation}
@@ -56,7 +56,9 @@ function EventCard({ image, title, description }) {
     <div class="rounded overflow-hidden ">
       <img class="w-full" src={image} alt="Mountain" />
       <div class="px-6 pb-4 pt-8">
-        <div class="font-bold text-xl mb-2 text-center">{title}</div>
+        <div class="font-bold text-xl mb-2 text-center font-montserrat">
+          {title}
+        </div>
         <p class="text-gray-700 text-base text-center">{description}</p>
       </div>
     </div>

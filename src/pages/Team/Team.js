@@ -5,7 +5,6 @@ import TeamMemberCard from "./TeamMemberCard";
 import { executives } from "./teamData";
 
 function Team() {
-  console.log(executives);
   return (
     <div>
       <Subheader
@@ -30,7 +29,7 @@ function Team() {
                     position,
                     email,
                     linkedin,
-                    facebook,
+                    instagram,
                     name,
                     image,
                     calendly,
@@ -40,7 +39,7 @@ function Team() {
                       position={position}
                       email={email}
                       linkedin={linkedin}
-                      facebook={facebook}
+                      instagram={instagram}
                       name={name}
                       image={image}
                       calendly={calendly}

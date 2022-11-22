@@ -7,7 +7,7 @@ import HeroSection from "./HeroSection";
 
 function Home() {
   return (
-    <div>
+    <div className="font-inter">
       <HeroSection />
       <IntroSection />
       <BenefitSection />

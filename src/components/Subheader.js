@@ -13,7 +13,9 @@ function Subheader({ title, subtitle }) {
           animationInDuration={2000}
           isVisible={true}
         >
-          <p className="text-6xl font-bold gradient-text ">{title}</p>
+          <p className="text-6xl font-bold gradient-text font-montserrat">
+            {title}
+          </p>
         </Animated>
         {/*Description*/}
         <Animated
@@ -22,7 +24,7 @@ function Subheader({ title, subtitle }) {
           animationInDelay={1050}
           isVisible={true}
         >
-          <p className="text-center mt-6 max-w-lg text-xl font-bold">
+          <p className="text-center mt-6 max-w-lg text-2xl font-montserrat">
             {subtitle}
           </p>
         </Animated>

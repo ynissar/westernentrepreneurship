@@ -72,7 +72,7 @@ export default class HeroSection extends Component {
             animationInDuration={2000}
             isVisible={true}
           >
-            <p className="text-6xl font-bold pb-6 gradient-text ">
+            <p className="text-6xl font-bold pb-6 gradient-text font-montserrat">
               {this.state.text}
             </p>
           </Animated>
@@ -83,7 +83,7 @@ export default class HeroSection extends Component {
             animationInDelay={1050}
             isVisible={true}
           >
-            <p className="text-center max-w-lg text-xl font-bold">
+            <p className="text-center max-w-lg text-xl font-bold font-montserrat">
               Western Entrepreneurship Association
             </p>
           </Animated>
@@ -93,7 +93,7 @@ export default class HeroSection extends Component {
             animationInDelay={1100}
             isVisible={true}
           >
-            <p className="text-center mt-2 max-w-lg text-lg text-theme">
+            <p className="text-center mt-2 max-w-lg text-lg text-theme font-montserrat">
               Western University's Largest Entrepreneurship Club
             </p>
           </Animated>

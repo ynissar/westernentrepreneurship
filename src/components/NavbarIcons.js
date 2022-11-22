@@ -110,9 +110,9 @@ function Menu(setOpen) {
       exit={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       initial={{ opacity: 0 }}
-      className="bg-black fixed h-full w-full z-40"
+      className="bg-black fixed h-full w-full z-10 font-montserrat"
     >
-      <ul className="flex flex-col items-center pt-36">
+      <ul className="flex flex-col items-center pt-36 ">
         <li className="mt-8">
           <Link
             to="/"

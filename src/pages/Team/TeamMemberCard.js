@@ -1,7 +1,7 @@
 import React from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function TeamMemberCard({
@@ -9,7 +9,7 @@ function TeamMemberCard({
   position,
   linkedin,
   email,
-  facebook,
+  instagram,
   image,
   calendly,
 }) {
@@ -27,7 +27,9 @@ function TeamMemberCard({
         {/* Details */}
         <div className="text-center mt-6">
           {/* Name */}
-          <h1 className="text-gray-900 text-xl font-bold mb-1">{name}</h1>
+          <h1 className="text-gray-900 text-xl font-bold mb-1 font-montserrat">
+            {name}
+          </h1>
 
           {/* Title */}
           <div className="text-gray-700 font-light mb-2">{position}</div>
@@ -41,7 +43,7 @@ function TeamMemberCard({
             <a
               href={linkedin}
               target="_blank"
-              className="flex rounded-full hover:bg-indigo-50 h-10 w-10"
+              className="flex rounded-full hover:bg-indigo-100 h-10 w-10"
             >
               <FontAwesomeIcon
                 icon={faLinkedin}
@@ -49,15 +51,15 @@ function TeamMemberCard({
               ></FontAwesomeIcon>
             </a>
 
-            {/* Facebook */}
+            {/* Instagram */}
             <a
-              href={facebook}
+              href={instagram}
               target="_blank"
-              className="flex rounded-full hover:bg-blue-100 h-10 w-10"
+              className="flex rounded-full hover:bg-orange-100 h-10 w-10"
             >
               <FontAwesomeIcon
-                icon={faFacebook}
-                className="text-blue-500 mx-auto mt-3"
+                icon={faInstagram}
+                className="text-orange-500 mx-auto mt-3"
               ></FontAwesomeIcon>
             </a>
 
@@ -65,7 +67,7 @@ function TeamMemberCard({
             <a
               href={"mailto:" + email}
               target="_blank"
-              className="flex rounded-full hover:bg-pink-50 h-10 w-10 "
+              className="flex rounded-full hover:bg-pink-100 h-10 w-10 "
             >
               <FontAwesomeIcon
                 icon={faEnvelope}
