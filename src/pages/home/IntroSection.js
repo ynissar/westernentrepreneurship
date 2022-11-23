@@ -33,7 +33,7 @@ function Intro() {
         initial={{ opacity: 0 }}
         className=" py-12 px-16 md:px-28 lg:px-52 mt-16 mb-4 flex flex-col items-center 2xl:flex-row-reverse justify-between"
       >
-        <div className="mt-24 mb-10 min-w-xl max-w-2xl sm:mr-12">
+        <div className="mt-24 mb-10 min-w-xl max-w-2xl sm:ml-12">
           <p className="font-bold text-4xl text-theme text-center md:text-left font-montserrat">
             What is W5?
           </p>
