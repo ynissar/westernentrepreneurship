@@ -131,15 +131,15 @@ function Menu(setOpen) {
             Opportunities
           </Link>
         </li>
-        {/* <li className="mt-8">
+        <li className="mt-8">
           <Link
-            to="/resources"
+            to="/entrepreneur"
             class="text-white font-semibold hover:duration-150 hover:opacity-70 text-4xl"
             onClick={setOpen}
           >
-            Resources
+            The Entrepreneur
           </Link>
-        </li> */}
+        </li>
         <li className="mt-8">
           <Link
             to="/team"

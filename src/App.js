@@ -10,6 +10,7 @@ import NavbarIcons from "./components/NavbarIcons";
 import { Helmet } from "react-helmet";
 import Resources from "./pages/Resources";
 import AlumniList from "./pages/AlumniList";
+import Entrepreneur from "./pages/entrepreneur/Entrepreneur";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="/resources" element={<Resources />}></Route>
         <Route path="/alumnilist" element={<AlumniList />}></Route>
         <Route path="/team" element={<Team />}></Route>
+        <Route path="/entrepreneur" element={<Entrepreneur />}></Route>
         <Route path="*" element={<Home />}></Route>
       </Routes>
       <Footer />

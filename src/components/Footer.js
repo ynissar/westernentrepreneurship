@@ -31,6 +31,11 @@ function Footer() {
           </Link>
         </li> */}
         <li>
+          <Link to="/entrepreneur" class="mr-4 hover:underline md:mr-6 ">
+            The Entrepreneur
+          </Link>
+        </li>
+        <li>
           <Link to="/contact" class="mr-4 hover:underline md:mr-6 ">
             Contact
           </Link>
