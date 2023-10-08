@@ -16,7 +16,7 @@ import {
 
 const executives = [
   {
-    name: "Sandy Wu",
+    name: "Salina Guo",
     position: "Co-President",
     linkedin: "https://www.linkedin.com/in/sandywu102/",
     facebook: "https://www.facebook.com/sandyywu/",
