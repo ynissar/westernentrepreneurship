@@ -18,7 +18,7 @@ const executives = [
   {
     name: "Salina Guo",
     position: "Co-President",
-    linkedin: "https://www.linkedin.com/in/sandywu102/",
+    linkedin: "https://www.linkedin.com/in/salina-guo-28409a1b1/",
     facebook: "https://www.facebook.com/sandyywu/",
     instagram: "https://www.instagram.com/sandywu102/",
     email: "sandywu2002@gmail.com",
