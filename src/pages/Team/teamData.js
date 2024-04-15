@@ -18,24 +18,24 @@ import {
 
 const executives = [
   {
-    name: "Salina Guo",
+    name: "Avan Chan",
     position: "President",
     linkedin: "https://www.linkedin.com/in/salina-guo-28409a1b1/",
     facebook: "https://www.facebook.com/salina.guo.7",
     instagram: "https://www.instagram.com/salinaguo/",
     email: "sguo.hba2025@ivey.ca",
     image: Salina,
-    calendly: "https://calendly.com/salina-guo/salina-guo-w5-coffee-chats",
+    calendly: "",
   },
   {
-    name: "Stephan Balakumaran",
+    name: "Tristan Mandy",
     position: "President",
     linkedin: "https://www.linkedin.com/in/stephan-balakumaran/",
     facebook: "https://www.facebook.com/profile.php?id=100010665544958",
     instagram: "https://www.instagram.com/stephanbalak/",
     email: "sbalakumaran.hba2025@ivey.ca",
     image: Stephan,
-    calendly: "https://calendly.com/sbalaku7/coffee-chats-stephan-balakumaran",
+    calendly: "",
   },
   {
     name: "Abhi Ravipati",
