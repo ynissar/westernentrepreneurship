@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faInstagram,
-  faFacebook,
+  faTiktok,
   faLinkedin,
   faDiscord,
 } from "@fortawesome/free-brands-svg-icons";
@@ -78,7 +78,7 @@ function NavbarIcons() {
           </a>
           <a target="_blank" href="https://www.facebook.com/W5entrepreneurs/">
             <FontAwesomeIcon
-              icon={faFacebook}
+              icon={faTiktok}
               className="text-2xl hover:text-[#17A9FD] hover:duration-150"
             />
           </a>

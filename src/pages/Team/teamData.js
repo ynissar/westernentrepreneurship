@@ -24,7 +24,7 @@ const executives = [
     facebook: "https://www.facebook.com/salina.guo.7",
     instagram: "https://www.instagram.com/salinaguo/",
     email: "sguo.hba2025@ivey.ca",
-    image: Salina,
+    image: Tristan,
     calendly: "",
   },
   {
@@ -34,7 +34,7 @@ const executives = [
     facebook: "https://www.facebook.com/profile.php?id=100010665544958",
     instagram: "https://www.instagram.com/stephanbalak/",
     email: "sbalakumaran.hba2025@ivey.ca",
-    image: Stephan,
+    image: Tristan,
     calendly: "",
   },
   {
@@ -44,7 +44,7 @@ const executives = [
     linkedin: "https://www.linkedin.com/in/abhiravipati/",
     instagram: "https://www.instagram.com/_abhi_ravipati/",
     email: "aravipa@uwo.ca",
-    image: Abhi,
+    image: Tristan,
     calendly: "about:blank",
   },
   {
@@ -54,7 +54,7 @@ const executives = [
     instagram: "https://www.instagram.com/danieltnwang/",
     facebook:"https://www.facebook.com/profile.php?id=100044758291934",
     email: "dwang682@uwo.ca",
-    image: Daniel,
+    image: Tristan,
     calendly: "",
   },
   {
@@ -64,7 +64,7 @@ const executives = [
     instagram: "https://www.instagram.com/paypeykay/",
     facebook: "https://www.facebook.com/peyton.kay.547",
     email: "pkou2@uwo.ca",
-    image: Peyton,
+    image: Tristan,
 
   },
   {
@@ -74,7 +74,7 @@ const executives = [
     instagram: "https://www.instagram.com/michael.chenn04/",
     facebook: "hhttps://www.facebook.com/michaelchen0604",
     email: "mchen745@uwo.ca",
-    image: Michael,
+    image: Tristan,
     calendly: "https://calendly.com/sunny-su/w5community",
   },
   {
@@ -84,7 +84,7 @@ const executives = [
     instagram: "https://www.instagram.com/mohammedkarimjee/",
     facebook: "https://www.facebook.com/mohammed.karimjee.10",
     email: "Mkarimje@uwo.ca",
-    image: Mohammed,
+    image: Tristan,
     calendly: "https://calendly.com/mkarimje/30min",
   },
   {
@@ -94,7 +94,7 @@ const executives = [
     instagram: "https://www.instagram.com/nathan.cyee/",
     facebook: "https://www.facebook.com/nate.yee.1",
     email: "nyee7@uwo.ca",
-    image: Nathan,
+    image: Tristan,
     calendly: "https://calendly.com/nyee7",
   },
   {
@@ -104,7 +104,7 @@ const executives = [
     instagram: "https://www.instagram.com/yusufnissar_/",
     facebook: "https://www.facebook.com/yusuf.nissar.96/",
     email: "yusufnissar8@gmail.com",
-    image: Yusuf,
+    image: Tristan,
     calendly: "https://calendly.com/yusufnissar/coffee-chats",
   },
   {
@@ -114,7 +114,7 @@ const executives = [
     instagram: "https://www.instagram.com/orianna.lui/",
     facebook: "https://www.facebook.com/oriannaqlui",
     email: "olui4@uwo.ca",
-    image: Orianna,
+    image: Tristan,
     calendly: "https://calendly.com/oriannalui/coffee-chat",
   },
   {
@@ -124,7 +124,7 @@ const executives = [
     instagram: "https://www.instagram.com/kamanabilauta/",
     facebook: "https://www.facebook.com/KamanaBilauta",
     email: "kle65@uwo.ca",
-    image: Kelly,
+    image: Tristan,
     calendly: "https://calendly.com/kle65/w5",
   },
   {
@@ -134,7 +134,7 @@ const executives = [
     instagram: "https://www.instagram.com/graz2003/",
     facebook: "https://www.facebook.com/messages/t/3995716953861476",
     email: "gzhou53@uwo.ca",
-    image: Grace,
+    image: Tristan,
     calendly: "https://calendly.com/zhougrace2003/w5",
   },
   {
@@ -144,7 +144,7 @@ const executives = [
     instagram: "https://www.instagram.com/lenaqtang/",
     facebook: "https://www.facebook.com/lena.qiutang",
     email: "ltang247@uwo.ca",
-    image: Lena,
+    image: Tristan,
     calendly: "https://calendly.com/lena-q-tang/coffee-chats",
   },
 ];
