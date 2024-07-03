@@ -76,7 +76,7 @@ function NavbarIcons() {
               className="text-2xl hover:text-[#C13584] hover:duration-150"
             />
           </a>
-          <a target="_blank" href="https://www.facebook.com/W5entrepreneurs/">
+          <a target="_blank" href="https://www.tiktok.com/@w5uwo">
             <FontAwesomeIcon
               icon={faTiktok}
               className="text-2xl hover:text-[#17A9FD] hover:duration-150"
