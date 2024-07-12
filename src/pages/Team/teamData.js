@@ -156,7 +156,7 @@ const executives = [
   },
   {
     name: "Collin Sobowale",
-    position: "VP Accelerator",
+    position: "VP Accelerators",
     linkedin: "https://www.linkedin.com/in/collinsbwle/",
     instagram: "https://www.instagram.com/collin.sbwl/",
     email: "csobowal@uwo.ca",
