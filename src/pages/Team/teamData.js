@@ -102,7 +102,7 @@ const executives = [
   },
   {
     name: "Max Skubitsky",
-    position: "VP Finance",
+    position: "VP Community",
     linkedin: "https://www.linkedin.com/in/maxim-skubitsky-40b6782a7/",
     instagram: "https://www.instagram.com/sxam03/",
     email: "mskubits@uwo.ca",
