@@ -155,8 +155,8 @@ const executives = [
     calendly: "",
   },
   {
-    name: "Frederick Yu",
-    position: "VP Catalyst",
+    name: "Collin Sobowale",
+    position: "VP Accelerator",
     linkedin: "https://www.linkedin.com/in/collinsbwle/",
     instagram: "https://www.instagram.com/collin.sbwl/",
     email: "csobowal@uwo.ca",
