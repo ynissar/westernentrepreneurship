@@ -9,10 +9,10 @@ export const ContactUs = () => {
 
     emailjs
       .sendForm(
-        "service_umil2lo",
+        "service_u8owfi2",
         "template_ei2n5jf",
         form.current,
-        "tatozDCNikUDIZnRr"
+        "3S0Y9BoIPxl3enkME"
       )
       .then(
         (result) => {
