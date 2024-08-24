@@ -3,7 +3,7 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 
-import W5Image from "../../images/w5.jpeg";
+import W5Image from "../../images/W5Community.jpg";
 
 function Intro() {
   const { ref, inView } = useInView({ threshold: 0.35, triggerOnce: true });

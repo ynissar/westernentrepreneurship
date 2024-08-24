@@ -1,19 +1,19 @@
 import {
   Salina,
-  Abhi,
-  Sandy,
-  Zohaib,
-  Stephan,
-  Amy,
-  Annie,
-  Carina,
-  Cheryl,
-  Melanie,
+  Avan,
+  Hellen,
+  Kaitlyn,
+  Barry,
+  Fred,
+  Wilbur,
+  Max,
+  Collin,
   Tristan,
-  Uttej,
-  Michael,
+  Allison,
+  Molly,
   Michelle,
   Peyton,
+  Ruixi,
 } from "../../images/team/index";
 
 const executives = [
@@ -23,7 +23,7 @@ const executives = [
     linkedin: "https://ca.linkedin.com/in/avan-chan-00bb4224a",
     instagram: "https://www.instagram.com/avancognito/",
     email: "achan735@uwo.ca",
-    image: Tristan,
+    image: Avan,
     calendly: "",
   },
   {
@@ -61,7 +61,7 @@ const executives = [
     linkedin: "https://www.linkedin.com/in/barryxpaul/",
     instagram: "https://www.instagram.com/barryxpaul/",
     email: "bpaul33@uwo.ca",
-    image: Tristan,
+    image: Barry,
     calendly: "",
   },
   {
@@ -79,7 +79,7 @@ const executives = [
     linkedin: "https://www.linkedin.com/in/hellen-liu/",
     instagram: "https://www.instagram.com/hellenliu_/",
     email: "hliu986@uwo.ca",
-    image: Tristan,
+    image: Hellen,
     calendly: "",
   },
   {
@@ -97,7 +97,7 @@ const executives = [
     linkedin: "https://www.linkedin.com/in/wilbur-d-souza-541a1a1b3/",
     instagram: "https://www.instagram.com/wilbur.dsouza_/",
     email: "wdsouza3@uwo.ca",
-    image: Tristan,
+    image: Wilbur,
     calendly: "",
   },
   {
@@ -106,7 +106,7 @@ const executives = [
     linkedin: "https://www.linkedin.com/in/maxim-skubitsky-40b6782a7/",
     instagram: "https://www.instagram.com/sxam03/",
     email: "mskubits@uwo.ca",
-    image: Tristan,
+    image: Max,
     calendly: "",
   },
   {
@@ -115,7 +115,7 @@ const executives = [
     linkedin: "https://www.linkedin.com/in/ruixi-qiu",
     instagram: "https://www.instagram.com/ruixiq/",
     email: "rqiu27@uwo.ca",
-    image: Tristan,
+    image: Ruixi,
     calendly: "",
   },
   {
@@ -124,7 +124,7 @@ const executives = [
     linkedin: "http://www.linkedin.com/in/kaitlyn-lee-733924261",
     instagram: "https://www.instagram.com/kaitlynmakayla_/",
     email: "klee936@uwo.ca",
-    image: Tristan,
+    image: Kaitlyn,
     calendly: "",
   },
   {
@@ -133,7 +133,7 @@ const executives = [
     linkedin: "https://www.linkedin.com/in/-allison-ye/",
     instagram: "https://www.instagram.com/a.llisonye/",
     email: "aye28@uwo.ca",
-    image: Tristan,
+    image: Allison,
     calendly: "",
   },
   {
@@ -142,7 +142,7 @@ const executives = [
     linkedin: "https://www.linkedin.com/in/frederick-yu-968b31204/",
     instagram: "https://www.instagram.com/frederickyu_/",
     email: "fyu92@uwo.ca",
-    image: Tristan,
+    image: Fred,
     calendly: "",
   },
   {
@@ -151,7 +151,7 @@ const executives = [
     linkedin: "https://www.linkedin.com/in/molly-jin/",
     instagram: "https://www.instagram.com/m._.llyyy/",
     email: "mjin95@uwo.ca",
-    image: Tristan,
+    image: Molly,
     calendly: "",
   },
   {
@@ -160,7 +160,7 @@ const executives = [
     linkedin: "https://www.linkedin.com/in/collinsbwle/",
     instagram: "https://www.instagram.com/collin.sbwl/",
     email: "csobowal@uwo.ca",
-    image: Tristan,
+    image: Collin,
     calendly: "",
   },
 ];

@@ -1,16 +1,16 @@
 import Salina from "./salina.jpg";
-import Abhi from "./abhi.jpg";
-import Sandy from "./sandyWu.jpeg";
-import Zohaib from "./zohaibAdnan.png";
-import Stephan from "./stephan.jpg";
-import Amy from "./amy.jpg";
-import Annie from "./annie.jpg";
-import Carina from "./carina.jpg";
-import Cheryl from "./cheryl.jpg";
-import Melanie from "./melanie.jpg";
-import Tristan from "./tristan.jpg";
-import Uttej from "./uttej.jpg";
-import Michael from "./michael.jpg";
+import Avan from "./Avan_Chan.jpg";
+import Hellen from "./Hellen.jpg";
+import Kaitlyn from "./Kaitlyn.jpg";
+import Barry from "./Barry.jpg";
+import Fred from "./Fred.jpg";
+import Wilbur from "./Wilbur.jpg";
+import Max from "./Max.jpg";
+import Collin from "./Collin.jpg";
+import Ruixi from "./Ruixi.jpg";
+import Tristan from "./Tristan_Mandy.jpg";
+import Allison from "./Allison.jpg";
+import Molly from "./Molly.jpg";
 import Michelle from "./michelle.jpg";
 import Peyton from "./peyton.jpg";
 import Daniel from "./daniel.jpg";
@@ -18,18 +18,18 @@ import Daniel from "./daniel.jpg";
 
 export {
   Salina,
-  Abhi,
-  Sandy,
-  Zohaib,
-  Stephan,
-  Amy,
-  Annie,
-  Carina,
-  Cheryl,
-  Melanie,
+  Avan,
+  Hellen,
+  Kaitlyn,
+  Barry,
+  Fred,
+  Wilbur,
+  Max,
+  Collin,
+  Ruixi,
   Tristan,
-  Uttej,
-  Michael,
+  Allison,
+  Molly,
   Michelle,
   Peyton,
   Daniel,
